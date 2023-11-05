@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656909446016",
+    "project_id": "medi-fit-a00a4",
+    "storage_bucket": "medi-fit-a00a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656909446016:android:4ad098ee4ebed56913ef65",
+        "android_client_info": {
+          "package_name": "com.example.medifit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtOhzM_2GUyEA8JlFx01F_oYbJwnAkZTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

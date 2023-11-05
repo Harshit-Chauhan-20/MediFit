@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/doc"
+        android:label="Medico.In"
+        android:roundIcon="@drawable/doc"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MediFit"
+        tools:targetApi="31">
+
+        android:icon="@drawable/doc"
+        <activity
+            android:name=".dash"
+            android:exported="false"
+            android:label="Medico.In"/>
+
+        <activity
+            android:name=".mainpage"
+            android:exported="false"
+            android:label="Medico.In"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Medico.In">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
